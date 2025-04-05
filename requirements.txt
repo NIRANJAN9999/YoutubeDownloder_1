@@ -2,3 +2,4 @@ streamlit==1.43.2
 pandas==2.2.3
 altair==5.5.0
 pytube==10.5.3
+yt-dlp==0.9.0
