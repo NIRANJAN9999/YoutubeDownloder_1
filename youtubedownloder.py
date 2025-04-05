@@ -12,7 +12,8 @@ if st.button("Download"):
         try:
             # Set up options for yt-dlp
             ydl_opts = {
-                'format': 'bestvideo+bestaudio/best',  # Download the best quality
+                'format': 'bestvideo+bestaudio/best',  # Download the best quality video and audio
+                'merge_output_format': 'mp4',          # Merge into mp4 format
                 'outtmpl': 'video_download.%(ext)s',   # Output filename
             }
 
